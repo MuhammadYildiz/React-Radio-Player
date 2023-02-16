@@ -39,7 +39,7 @@ export default function Station() {
                                 <div className='flex flex-col sm:flex-row justify-center items-center'>
                                     <img className="max-w-[200px] max-h-[150px]  p-5  rounded-3xl bg-white m-2"
                                         src={station.image} alt="" />
-                                    <p className='text-white m-3 p-3 rounded-3xl  min-h-[120px]'>
+                                    <p className='text-white m-3 sm:mx-5'>
                                         <span className='text-xl'>Tagline:</span> <br />
                                         {station.tagline}
                                     </p>
